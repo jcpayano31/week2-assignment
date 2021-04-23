@@ -25,6 +25,10 @@
 
 .NewsArtibles {
   display: flex;
+  background-color: burlywood;
+  padding: 20px;
+  margin: 20px;
+  border:1px solid darkorange;
 }
 
 @media screen and (min-width: 768px) {
