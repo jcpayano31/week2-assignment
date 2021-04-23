@@ -1,0 +1,16 @@
+.Incase-articles {
+  width: 90vw;
+  max-width: 1170px;
+  margin: 5rem auto;
+  display: grid;
+  gap: 2rem;
+}
+
+@media screen and (min-width: 768px) {
+  .Incase-articles {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+.Incase-author-image1{
+    width: 100%;
+}

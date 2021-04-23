@@ -1,0 +1,51 @@
+.news-img img {
+  width: 100%;
+  border-radius: 1rem;
+}
+
+.news-title {
+}
+
+.news-description  {
+  color: lightgreen;
+}
+
+.news-author {
+    color: lightslategray;
+}
+.author-image1 {
+  border-radius: 1rem;
+}
+
+.news-articles {
+  background-color: lightcoral;
+  display: flex;
+  padding: 2cm;
+}
+
+.NewsArtibles {
+  display: flex;
+}
+
+@media screen and (min-width: 768px) {
+  .NewsArtibles {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+.news-image1 {
+  width: 100%;
+}
+
+#container{
+  display: flex;
+  background-color: purple;
+  height: 200px;
+}
+
+#main{
+  background-color: burlywood;
+  padding: 20px;
+  margin: 20px;
+  border:1px solid darkorange;
+}
